@@ -12,7 +12,7 @@ function start() {
 
   function respostaDoPrefixo() {
     const prefixos = ["quem é", "oque é", "A historia de"];
-    const indiceDoPrefixoSelecionado = readline.keyInSelect(prefixos, "choose one option: ");
+    const indiceDoPrefixoSelecionado = readline.keyInSelect(prefixos, "Escolha uma opção: ");
     const textoDoPrefixoSelecionado = prefixos[indiceDoPrefixoSelecionado]
 
     return textoDoPrefixoSelecionado;
